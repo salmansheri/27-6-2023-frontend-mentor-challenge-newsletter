@@ -7,11 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        'primary': 'hsl(4, 100%, 67%)',
+        'secondary': '#ff527b',
+        'dark-slate-grey': 'hsl(234, 29%, 20%)',
+        'charcoal-grey': 'hsl(235, 18%, 26%)', 
+        'website-white': 'hsl(0, 0%, 100%)', 
+        
+      }, 
+      fontSize: {
+        'paragraph': '16px', 
+      }, 
+      fontWeight: {
+        '400': '400', 
+        '700': '700', 
+
+      }, 
+      fontFamily: {
+        'roboto': 'Roboto, sans-serif'
+      }
     },
   },
   plugins: [],
